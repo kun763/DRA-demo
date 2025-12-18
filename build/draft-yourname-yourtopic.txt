@@ -1,0 +1,168 @@
+
+
+
+
+Network Working Group                                          Your Name
+Internet-Draft                                                  Your Org
+Intended status: Informational                          18 December 2025
+Expires: 21 June 2026
+
+
+Use Cases and Properties for Integrating Remote Attestation with Secure
+                           Channel Protocols
+                    draft-yourname-yourtopic-latest
+
+Abstract
+
+   This document describes use cases and desired properties for
+   integrating remote attestation with secure channel protocols, with an
+   initial focus on TLS 1.3.
+
+Status of This Memo
+
+   This Internet-Draft is submitted in full conformance with the
+   provisions of BCP 78 and BCP 79.
+
+   Internet-Drafts are working documents of the Internet Engineering
+   Task Force (IETF).  Note that other groups may also distribute
+   working documents as Internet-Drafts.  The list of current Internet-
+   Drafts is at https://datatracker.ietf.org/drafts/current/.
+
+   Internet-Drafts are draft documents valid for a maximum of six months
+   and may be updated, replaced, or obsoleted by other documents at any
+   time.  It is inappropriate to use Internet-Drafts as reference
+   material or to cite them other than as "work in progress."
+
+   This Internet-Draft will expire on 21 June 2026.
+
+Copyright Notice
+
+   Copyright (c) 2025 IETF Trust and the persons identified as the
+   document authors.  All rights reserved.
+
+   This document is subject to BCP 78 and the IETF Trust's Legal
+   Provisions Relating to IETF Documents (https://trustee.ietf.org/
+   license-info) in effect on the date of publication of this document.
+   Please review these documents carefully, as they describe your rights
+   and restrictions with respect to this document.  Code Components
+   extracted from this document must include Revised BSD License text as
+   described in Section 4.e of the Trust Legal Provisions and are
+   provided without warranty as described in the Revised BSD License.
+
+
+
+
+
+Your Name                 Expires 21 June 2026                  [Page 1]
+
+Internet-Draft       RA + Secure Channels Use Cases        December 2025
+
+
+Table of Contents
+
+   1.  Introduction  . . . . . . . . . . . . . . . . . . . . . . . .   2
+   2.  Terminology . . . . . . . . . . . . . . . . . . . . . . . . .   2
+   3.  Use Cases . . . . . . . . . . . . . . . . . . . . . . . . . .   2
+     3.1.  UC-1: Server Attestation to Client  . . . . . . . . . . .   2
+   4.  Desired Properties  . . . . . . . . . . . . . . . . . . . . .   2
+     4.1.  P-1: Cryptographic Binding Between Channel and
+           Attestation . . . . . . . . . . . . . . . . . . . . . . .   2
+   5.  Security Considerations . . . . . . . . . . . . . . . . . . .   2
+   6.  IANA Considerations . . . . . . . . . . . . . . . . . . . . .   3
+   7.  References  . . . . . . . . . . . . . . . . . . . . . . . . .   3
+     7.1.  Normative References  . . . . . . . . . . . . . . . . . .   3
+     7.2.  Informative References  . . . . . . . . . . . . . . . . .   3
+   Appendix A.  Acknowledgements . . . . . . . . . . . . . . . . . .   3
+   Author's Address  . . . . . . . . . . . . . . . . . . . . . . . .   3
+
+1.  Introduction
+
+   Remote attestation (RA) enables a Verifier to obtain evidence about
+   an Attester's state.  When RA is combined with a secure channel,
+   additional properties may be achieved, such as cryptographic binding
+   between evidence and a specific channel instance.
+
+2.  Terminology
+
+   The key words "MUST", "SHOULD", and "MAY" are to be interpreted as
+   described in BCP 14.
+
+3.  Use Cases
+
+3.1.  UC-1: Server Attestation to Client
+
+   Text.
+
+4.  Desired Properties
+
+4.1.  P-1: Cryptographic Binding Between Channel and Attestation
+
+   Text.
+
+5.  Security Considerations
+
+   Text.
+
+
+
+
+
+
+
+Your Name                 Expires 21 June 2026                  [Page 2]
+
+Internet-Draft       RA + Secure Channels Use Cases        December 2025
+
+
+6.  IANA Considerations
+
+   This document has no IANA actions.
+
+7.  References
+
+7.1.  Normative References
+
+   [RFC8446]  Rescorla, E., "The Transport Layer Security (TLS) Protocol
+              Version 1.3", RFC 8446, DOI 10.17487/RFC8446, August 2018,
+              <https://www.rfc-editor.org/info/rfc8446>.
+
+   [RFC9334]  Birkholz, H., Thaler, D., Richardson, M., Smith, N., and
+              W. Pan, "Remote ATtestation procedureS (RATS)
+              Architecture", RFC 9334, DOI 10.17487/RFC9334, January
+              2023, <https://www.rfc-editor.org/info/rfc9334>.
+
+7.2.  Informative References
+
+   [RFC9261]  Sullivan, N., "Exported Authenticators in TLS", RFC 9261,
+              DOI 10.17487/RFC9261, July 2022,
+              <https://www.rfc-editor.org/info/rfc9261>.
+
+   [RFC9711]  Lundblade, L., Mandyam, G., O'Donoghue, J., and C.
+              Wallace, "The Entity Attestation Token (EAT)", RFC 9711,
+              DOI 10.17487/RFC9711, April 2025,
+              <https://www.rfc-editor.org/info/rfc9711>.
+
+Appendix A.  Acknowledgements
+
+   Text.
+
+Author's Address
+
+   Your Name
+   Your Org
+   Email: you@example.com
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Your Name                 Expires 21 June 2026                  [Page 3]
