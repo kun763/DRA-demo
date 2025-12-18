@@ -5,6 +5,11 @@ MD    := $(DRAFT).md
 XML   := build/$(DRAFT).xml
 TXT   := build/$(DRAFT).txt
 HTML  := build/$(DRAFT).html
+
+XML2RFC ?= xml2rfc
+
+.PHONY: all clean check html txt xml
+
 INDEX := build/index.html
 
 all: html txt index
@@ -12,11 +17,6 @@ all: html txt index
 index: html
 	@cp -f $(HTML) $(INDEX)
 
-XML2RFC ?= xml2rfc
-
-.PHONY: all clean check html txt xml
-
-all: html txt
 
 build:
 	@mkdir -p build
