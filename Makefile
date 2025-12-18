@@ -5,6 +5,12 @@ MD    := $(DRAFT).md
 XML   := build/$(DRAFT).xml
 TXT   := build/$(DRAFT).txt
 HTML  := build/$(DRAFT).html
+INDEX := build/index.html
+
+all: html txt index
+
+index: html
+	@cp -f $(HTML) $(INDEX)
 
 XML2RFC ?= xml2rfc
 
